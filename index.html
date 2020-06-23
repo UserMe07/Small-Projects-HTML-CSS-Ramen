@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen For You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="../Ramen_2020-06-20/resources/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Koumi Ramen Restaurant</h1>
+        <button class="call">Call Now</button>
+    </header>
+    <main>
+        <div>
+            <h2>Compose Your Ramen:</h2>
+            <h4>1. Select Base:</h4>
+                <form class="form1" action="mailto:Olka152@op.pl" method="GET">
+                    <label for="base1">Chicken</label>
+                    <input type="radio" name="base" id="base1" value="chicken">
+                    <label for="base2">Beef</label>
+                    <input type="radio" name="base" id="base2" value="beef">
+                    <label for="base3">Pork</label>
+                    <input type="radio" name="base" id="base3" value="pork">
+                    <label for="base4">Fish</label>
+                    <input type="radio" name="base" id="base4" value="fish">
+                    <label for="base5">Vegetables (Vegan)</label>
+                    <input type="radio" name="base" id="base5" value="vegetables">
+                </form>
+                <br>
+            <h4>2. Select Ingredients (2$ each):</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="ing1">Meat/fish (4 slices)</label>
+                        <input type="checkbox" name="ing" id="ing1" value="meatFish">
+
+                        <label for="ing2">Chinese cabbage</label>
+                        <input type="checkbox" name="ing" id="ing2" value="chineseCabbage">
+
+                        <label for="ing3">Onion</label>
+                        <input type="checkbox" name="ing" id="ing3" value="onion">
+
+                        <label for="ing4">Chives</label>
+                        <input type="checkbox" name="ing" id="ing4" value="chives">
+
+                        <label for="ing5">Bamboo sprigs</label>
+                        <input type="checkbox" name="ing" id="ing5" value="bamboo">
+
+                        <label for="ing6">Sesame</label>
+                        <input type="checkbox" name="ing" id="ing6" value="sesame">
+
+                        <label for="ing7">Soya</label>
+                        <input type="checkbox" name="ing" id="ing7" value="soya">
+
+                        <label for="ing8">Algae</label>
+                        <input type="checkbox" name="ing" id="ing8" value="algae">
+
+                        <label for="ing9">Egg</label>
+                        <input type="checkbox" name="ing" id="ing9" value="egg">
+
+                        <label for="ing10">Garlic</label>
+                        <input type="checkbox" name="ing" id="ing10" value="garlic">
+                </form>
+                <br>
+            <h4>3. Select Seasoning (1$ each):</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="seasoningChoice">Choose a seasoning:</label>
+                        <input list="seasoning" id="seasoningChoice" name="seasoning"/>
+
+                        <datalist id="seasoning">
+                            <option value="Black Pepper">
+                            <option value="White Pepper">
+                            <option value="Sichuan Pepper">
+                            <option value="Miso">
+                            <option value="Chilli Oil">
+                        </datalist>
+                </form>
+                <br>
+            <h4>4. Select Drink (5$ each):</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="drinksChoice">Choose a drink:</label>
+                        <select name="drinks" id="drinksChoice">
+                            <option value="">--Please choose an option--</option>
+                            <option value="green-tea">Green Tea</option>
+                            <option value="black-tea">Black Tea</option>
+                            <option value="white-tea">White Tea</option>
+                            <option value="red-tea">Red Tea</option>
+                            <option value="yellow-tea">Yellow Tea</option>
+                        </select>
+                </form>
+                <br>
+            <h4>5. Do you need the chopsticks and a spoon?</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="cutlery"></label>
+                        <input type="text" id="cutlery" name="cutlery">
+                </form>
+                <br>
+            <h4>6. Select acridity:</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="acridity"></label>
+                        <input id="acridity" type="range" step="1" value="acridity" min="0" max="3" list="numbers">
+                        <datalist id="numbers">
+                            <option value="1" label="1"></option>
+                            <option value="2" label="2"></option>
+                            <option value="3" label="3"></option>
+                          </datalist>
+                </form>
+                <br>
+            <h4>7. Select preferred waiting time (hours):</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="waiting-time"></label>
+                        <input type="number" id="waiting-time" name="waiting-time">
+                </form>
+                <br>
+            <h4>8. Additional notes/Special wishes:</h4>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <textarea id="textarea" name="comments" cols="50" rows="10"></textarea>
+                </form>
+                <form action="mailto:Olka152@op.pl" method="GET">
+                        <label for="submit"></label>
+                        <input id="submit" type="submit" value="Submit">
+                </form>
+                <br>
+        </div>
+    </main>
+    <footer>
+        <h3>Contact</h3>
+        <h3>Address</h3>
+        <h3>Business Hours</h3>
+    </footer>
+</body>
+</html>
